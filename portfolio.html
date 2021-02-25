@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!-- Fortæller det er html5 -->
+<!-- html starter og slutter hele dokumentet / lang=da: Fortæller siden er på dansk -->
+<html lang="da">
+
+<!-- I <head> har man opsætning - alt det som man ikke ser som selve indholdet -->
+<head>
+
+    <!-- Sætter tegnsætning til utf-8 som bl.a. tillader danske bogstaver -->
+    <meta charset="utf-8">
+
+    <!-- Titel som ses oppe i browserens tab mv. -->
+    <title>✨My Portfolio✨</title>
+
+    <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
+    <meta name="robots" content="All">
+    <meta name="author" content="Udgiver">
+    <meta name="copyright" content="Information om copyright">
+
+    <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/1284430910.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+
+    <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<!-- i <body> har man alt indhold på siden -->
+<body>
+<nav class="nav nav-expand-lg">
+    <a class="email-link" href="mailto:sara.henriksen95@hotmail.com">Contact Me</a>
+    <a class="home-link" href="index.html">‹ Back</a>
+</nav>
+<div class="container pt-5 mt-5">
+    <h2 class="text-xs-center title">Portfolio</h2>
+    <div class="row">
+        <div class="col-md-4 col-sm-6" style="padding-bottom: 45px;">
+            <div class="card" style="border: 0;">
+                <img class="card-img-top img-fluid" style="background-color: white" src="img/nokia.png" alt="" />
+                <div class="card-body text-left d-flex flex-column">
+                    <h4 class="card-title">Nokia Beacon page</h4>
+                    <p class="card-text align-self-end" style="margin-top: auto;">This is a recreation of an existing Nokia page made in bootstrap.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6" style="padding-bottom: 45px;">
+            <div class="card" style="border: 0;">
+                <img class="card-img-top img-fluid" src="img/autohusetvest.png" alt="" />
+                <div class="card-body text-left d-flex flex-column" >
+                    <h4 class="card-title">Autohuset Vestergaard</h4>
+                    <p class="card-text align-self-end" style="margin-top: auto;">In a project, me and my team created a campagnesite for a company.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6" style="padding-bottom: 45px;">
+            <div class="card" style="border: 0;">
+                <img class="card-img-top img-fluid" src="img/egenvirksomhed.png" alt="" />
+                <div class="card-body text-left d-flex flex-column">
+                    <h4 class="card-title">MassWeb</h4>
+                    <p class="card-text align-self-end" style="margin-top: auto;">Another Project created by my team and i, MassWeb is a nonexistent web bureau.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6" style="padding-bottom: 45px;">
+            <div class="card" style="border: 0;">
+                <img class="card-img-top img-fluid" src="img/dominio%20de%20puntas.png" alt="" />
+                <div class="card-body text-left d-flex flex-column">
+                    <h4 class="card-title">Dominio de pontas</h4>
+                    <p class="card-text align-self-end" style="margin-top: auto;">A half blog, half wineshop made for a school project, fun to make those two content work together.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6" style="padding-bottom: 45px;">
+            <div class="card" style="border: 0;">
+                <img class="card-img-top img-fluid" src="img/scoreboard.png" alt="" />
+                <div class="card-body text-left d-flex flex-column">
+                    <h4 class="card-title">Scoreboard for mini-golf</h4>
+                    <p class="card-text align-self-end" style="margin-top: auto;">Made a scoreboard for a small assignment. really fun to make!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6" style="padding-bottom: 45px;">
+            <div class="card" style="border: 0;">
+                <img class="card-img-top img-fluid" src="img/ghostboostrapscss.png" alt="" />
+                <div class="card-body text-left d-flex flex-column">
+                    <h4 class="card-title">Bootstrap togglebutton</h4>
+                    <p class="card-text align-self-end" style="margin-top: auto;">First bootstrap project, thought it would be fun with a little extra.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="container-fluid sticky-bottom">
+    <div class="line" style="border-top: 3px solid rgba(0,0,0,0.2);"></div>
+    <div class="row">
+        <div class="work col-12 py-5">
+            <a href =""><i class="fab fa-github"></i></a>
+            <a href =""><i class="fab fa-behance"></i></a>
+            <a href =""><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.js" integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js" integrity="sha512-BmM0/BQlqh02wuK5Gz9yrbe7VyIVwOzD1o40yi1IsTjriX/NGF37NyXHfmFzIlMmoSIBXgqDiG1VNU6kB5dBbA==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/progressbar.js"></script>
+<script>
+    feather.replace();
+</script>
+</body>
+</html>
